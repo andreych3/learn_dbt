@@ -34,4 +34,4 @@ models:
   learn_dbt:
     # Applies to all files under models/example/
     example:
-      materialized: view
+      materialized: table

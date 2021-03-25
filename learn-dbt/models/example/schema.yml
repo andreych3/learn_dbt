@@ -27,3 +27,13 @@ models:
             tests:
               - unique
               - not_null
+
+    - name: cumulative_query
+      description: "some description"
+      columns:
+          - name: o_orderdate
+            tests:
+              - unique
+              - not_null
+    - name: dates
+    - name: time_difference

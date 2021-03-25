@@ -6,8 +6,8 @@
 
     Try changing "table" to "view" below
 */
+{{ config(materialized='table', alias='first_model') }}
 
-{{ config(materialized='table') }}
 
 with source_data as (
 
