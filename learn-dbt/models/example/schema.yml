@@ -50,3 +50,9 @@ models:
           - name: c_custkey
             tests:
                 - unique
+sources:
+    - name: sample
+      database: SNOWFLAKE_SAMPLE_DATA
+      schema: TPCH_SF1
+      tables:
+        - name: customer
